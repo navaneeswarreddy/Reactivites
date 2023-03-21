@@ -1,0 +1,270 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/zintlr/Desktop/dotnet/Reactivities/API/API.csproj": {}
+  },
+  "projects": {
+    "/home/zintlr/Desktop/dotnet/Reactivities/API/API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zintlr/Desktop/dotnet/Reactivities/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/home/zintlr/Desktop/dotnet/Reactivities/API/API.csproj",
+        "packagesPath": "/home/zintlr/.nuget/packages/",
+        "outputPath": "/home/zintlr/Desktop/dotnet/Reactivities/API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zintlr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/zintlr/Desktop/dotnet/Reactivities/Application/Application.csproj": {
+                "projectPath": "/home/zintlr/Desktop/dotnet/Reactivities/Application/Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/zintlr/Desktop/dotnet/Reactivities/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zintlr/Desktop/dotnet/Reactivities/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/zintlr/Desktop/dotnet/Reactivities/Application/Application.csproj",
+        "packagesPath": "/home/zintlr/.nuget/packages/",
+        "outputPath": "/home/zintlr/Desktop/dotnet/Reactivities/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zintlr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/zintlr/Desktop/dotnet/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/home/zintlr/Desktop/dotnet/Reactivities/Domain/Domain.csproj"
+              },
+              "/home/zintlr/Desktop/dotnet/Reactivities/Persistence/Persistence.csproj": {
+                "projectPath": "/home/zintlr/Desktop/dotnet/Reactivities/Persistence/Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/zintlr/Desktop/dotnet/Reactivities/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zintlr/Desktop/dotnet/Reactivities/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/zintlr/Desktop/dotnet/Reactivities/Domain/Domain.csproj",
+        "packagesPath": "/home/zintlr/.nuget/packages/",
+        "outputPath": "/home/zintlr/Desktop/dotnet/Reactivities/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zintlr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/zintlr/Desktop/dotnet/Reactivities/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zintlr/Desktop/dotnet/Reactivities/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/home/zintlr/Desktop/dotnet/Reactivities/Persistence/Persistence.csproj",
+        "packagesPath": "/home/zintlr/.nuget/packages/",
+        "outputPath": "/home/zintlr/Desktop/dotnet/Reactivities/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/zintlr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/zintlr/Desktop/dotnet/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/home/zintlr/Desktop/dotnet/Reactivities/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
